@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="339dp"
+        android:layout_height="254dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="99dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:buttonTint="#33032F"
+            android:text="Hay "
+            android:textColor="#33032F" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:buttonTint="#33032F"
+            android:text="Oats"
+            android:textColor="#33032F" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:buttonTint="#33032F"
+            android:text="Pellets"
+            android:textColor="#33032F" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:buttonTint="#33032F"
+            android:text="Pasture Grass"
+            android:textColor="#33032F" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:buttonTint="#33032F"
+            android:text="Add More"
+            android:textColor="#33032F" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="109dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="648dp"
+        android:backgroundTint="#A0ACAD"
+        android:text="UPDATE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#33032F"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="336dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="38dp"
+        android:background="#A0ACAC"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Extra notes and details about diet..."
+        android:inputType="textMultiLine"
+        android:textColorHint="#33032F"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

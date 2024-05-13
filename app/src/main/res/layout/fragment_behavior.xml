@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.reminders.RemindersFragment">
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup"
+        android:layout_width="374dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="148dp"
+        app:checkedChip="@+id/chipd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Happy"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Sad"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Anxious"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Tense"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Sleepy"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Sick"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Sad"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Silly"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Excited"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Depressed"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Bored"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Angry"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Annoyed"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Calm"
+            android:textColor="#33032F" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:text="Restless"
+            android:textColor="#33032F" />
+    </com.google.android.material.chip.ChipGroup>
+
+    <RadioGroup
+        android:layout_width="346dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chipGroup">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:buttonTint="#33032F"
+            android:text="More than Average Sleep"
+            android:textColor="#33032F" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:buttonTint="#33032F"
+            android:text="Average Sleep"
+            android:textColor="#33032F" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A0ACAC"
+            android:backgroundTint="#A0ACAD"
+            android:buttonTint="#33032F"
+            android:text="Less than Average Sleep"
+            android:textColor="#33032F" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

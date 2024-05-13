@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="297dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:hint="Name"
+        android:textColorHint="#33032F"
+        android:textColor="#33032F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="297dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="60dp"
+        android:hint="Age"
+        android:textColorHint="#33032F"
+        android:textColor="#33032F"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="@id/editText" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="297dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="60dp"
+        android:hint="Gender"
+        android:textColorHint="#33032F"
+        android:textColor="#33032F"
+        app:layout_constraintStart_toStartOf="@+id/editText2"
+        app:layout_constraintTop_toTopOf="@id/editText2" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="297dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="60dp"
+        android:hint="Breed"
+        android:textColorHint="#33032F"
+        android:textColor="#33032F"
+        app:layout_constraintStart_toStartOf="@+id/editText3"
+        app:layout_constraintTop_toTopOf="@id/editText3" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="297dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="60dp"
+        android:hint="Height"
+        android:textColorHint="#33032F"
+        android:textColor="#33032F"
+        app:layout_constraintStart_toStartOf="@+id/editText4"
+        app:layout_constraintTop_toTopOf="@id/editText4" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="297dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="60dp"
+        android:hint="Width"
+        android:textColorHint="#33032F"
+        android:textColor="#33032F"
+        app:layout_constraintStart_toStartOf="@+id/editText5"
+        app:layout_constraintTop_toTopOf="@id/editText5" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="297dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="60dp"
+        android:hint="Weight"
+        android:textColorHint="#33032F"
+        android:textColor="#33032F"
+        app:layout_constraintStart_toStartOf="@+id/editText6"
+        app:layout_constraintTop_toTopOf="@id/editText6" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#A0ACAD"
+        android:text="SUBMIT"
+        android:textStyle="bold"
+        android:textColor="#33032F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="334dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:text="Horse Details"
+        android:textColor="#33032F"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
